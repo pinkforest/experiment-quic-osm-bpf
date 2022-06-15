@@ -1,0 +1,11 @@
+[package]
+name = "osm-bpf-dma-uring-experiment"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bytes = "1.1.0"
+glommio = "0.7.0"
+quick-protobuf = "0.8.0"
+flate2 = { version = "1.0.17", features = ["zlib-ng"], default-features = false }
+libdeflater = "0.8.0"
