@@ -514,6 +514,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "7709cef83f0c1f58f666e746a08b21e0085f7440fa6a29cc194d68aac97a4225"
 
 [[package]]
+name = "osm-bpf-dma-uring-experiment"
+version = "0.1.0"
+dependencies = [
+ "bytes",
+ "flate2",
+ "glommio",
+ "libdeflater",
+ "quick-protobuf",
+]
+
+[[package]]
 name = "owned-alloc"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -649,9 +660,9 @@ dependencies = [
 
 [[package]]
 name = "spin"
-version = "0.9.3"
+version = "0.9.8"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c530c2b0d0bf8b69304b39fe2001993e267461948b890cd037d8ad4293fa1a0d"
+checksum = "6980e8d7511241f8acf4aebddbb1ff938df5eebe98691418c4468d0b72a96a67"
 dependencies = [
  "lock_api",
 ]
@@ -710,17 +721,6 @@ name = "unicode-ident"
 version = "1.0.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "d22af068fba1eb5edcb4aea19d382b2a3deb4c8f9d475c589b6ada9e0fd493ee"
-
-[[package]]
-name = "uring-test"
-version = "0.1.0"
-dependencies = [
- "bytes",
- "flate2",
- "glommio",
- "libdeflater",
- "quick-protobuf",
-]
 
 [[package]]
 name = "version_check"
